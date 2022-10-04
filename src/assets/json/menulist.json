@@ -1,0 +1,26 @@
+[
+  {
+    "label":"Inicio",
+    "path":"#"
+  },
+  {
+    "label":"Vida",
+    "path":"#"
+  },
+  {
+    "label":"Promociones",
+    "path":"#"
+  },
+  {
+    "label":"Faq´s",
+    "path":"#"
+  },
+  {
+    "label":"Blog",
+    "path":"#"
+  },
+  {
+    "label":"Contacto",
+    "path":"#"
+  }
+]

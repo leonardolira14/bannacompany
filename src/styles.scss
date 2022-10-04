@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+@import './styles/variables.scss';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+.button{
+  width: auto;
+  padding: 5px 10px;
+  border: 0;
+  &--primary{
+    background-color: $color-orange;
+    color: white;
+  }
+  &--secondary{
+    background-color: $color-purple;
+    color: white;
+  }
+}
+.tittle{
+  color:$color-orange;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+.subtitle{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color:$color-purple;
+}
+
+.text{
+  text-align: justify;
+  font-size: 1rem;
+}

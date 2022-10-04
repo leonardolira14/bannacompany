@@ -1,0 +1,18 @@
+<div class="container-carrucel">
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide *ngFor="let item of images">
+      <div class="container-carrucel__img">
+        <div class="container-carrucel__img__background"></div>
+        <div [ngStyle]="{'background-image':'url('+item+')'}" class="container-carrucel__img__backgroundimg"></div>
+
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  <div class="container-carrucel__caption">
+    <h3>Tenemos un serguro de vida</h3>
+    <p>ideal para tí</p>
+    <button class="container-carrucel__caption__button button button--primary">
+      !Cotiza ahora¡
+    </button>
+  </div>
+</div>
